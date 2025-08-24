@@ -242,3 +242,24 @@ object-fit: cover;
 .border-bottom {
   border-color: #ff00ff !important;
 }
+
+/* Responsive */
+/* Altura de imagen para pantallas grandes (desktop) */
+.card-img-container {
+  height: 550px;
+  overflow: hidden;
+}
+
+/* Reducir la altura de imagen en pantallas más pequeñas (móviles y tabletas) */
+@media (max-width: 991.98px) {
+  .card-img-container {
+    height: 300px; /* Un valor más apropiado para móviles y tablets */
+  }
+}
+
+/* Asegura que la imagen siempre cubra el espacio */
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
