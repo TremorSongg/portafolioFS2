@@ -1,7 +1,7 @@
 body {
 font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
-background-color: #0a1128; /* Azul oscuro casi negro */
-color: #f8f9fa; /* Blanco hueso */
+background-color: #0a1128; 
+color: #f8f9fa; 
 }
 
 /* Skip link visible al enfocar con teclado */
@@ -21,8 +21,8 @@ top: 1rem;
 width: auto;
 height: auto;
 z-index: 1050;
-background: #ff00ff; /* Rosa neón */
-color: #0a1128; /* Azul oscuro */
+background: #ff00ff; 
+color: #0a1128; 
 padding: .5rem .75rem;
 border-radius: .5rem;
 text-decoration: none;
@@ -33,21 +33,21 @@ section {
 scroll-margin-top: 90px;
 }
 
-/* Mejorar contraste de badges "subtle" en temas claros (ahora oscuros, ajustamos) */
+
 .badge.border {
-border-color: #495057 !important; /* Gris más visible */
-background-color: transparent !important; /* Fondo transparente para que resalte el borde */
-color: #ced4da !important; /* Gris claro para el texto */
+border-color: #495057 !important; 
+background-color: transparent !important; 
+color: #ced4da !important; 
 }
 
 .badge.bg-primary-subtle {
-background-color: rgba(255, 0, 255, 0.15) !important; /* Rosa sutil */
-color: #ff00ff !important; /* Rosa */
+background-color: rgba(255, 0, 255, 0.15) !important; 
+color: #ff00ff !important; 
 }
 
 .badge.bg-secondary-subtle {
-background-color: rgba(0, 173, 239, 0.15) !important; /* Cian sutil */
-color: #00adef !important; /* Cian */
+background-color: rgba(0, 173, 239, 0.15) !important; 
+color: #00adef !important; 
 }
 
 /* Imágenes redondeadas */
@@ -57,7 +57,7 @@ object-fit: cover;
 
 /* Enlaces del footer */
 footer {
-background-color: #0a1128; /* Mantener fondo oscuro */
+background-color: #0a1128; 
 }
 
 footer a {
@@ -67,17 +67,17 @@ text-decoration: none;
 
 footer a:hover {
 text-decoration: underline;
-color: #00adef; /* Cian al pasar el ratón */
+color: #00adef; 
 }
 
 /* Navbar */
 .navbar {
-background-color: #1e2749 !important; /* Otro tono de azul oscuro */
-border-bottom: 1px solid #ff00ff; /* Borde inferior cian */
+background-color: #1e2749 !important; 
+border-bottom: 1px solid #ff00ff; 
 }
 
 .navbar-brand {
-color: #ff00ff !important; /* Logo rosa */
+color: #ff00ff !important; 
 }
 
 .navbar-nav .nav-link {
@@ -86,11 +86,11 @@ color: #f8f9fa !important;
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-color: #ff00ff !important; /* Enlaces activos/hover cian */
+color: #ff00ff !important; 
 }
 
 .navbar-toggler {
-border-color: #ff00ff !important; /* Borde del botón toggler rosa */
+border-color: #ff00ff !important; 
 }
 
 .navbar-toggler-icon {
@@ -106,7 +106,7 @@ color: #f8f9fa !important;
 
 .btn-primary:hover,
 .btn-primary:focus {
-background-color: #d600d6 !important; /* Tono más oscuro de rosa al hover/focus */
+background-color: #d600d6 !important; 
 border-color: #d600d6 !important;
 color: #f8f9fa !important;
 }
@@ -137,12 +137,12 @@ border-color: #b3b9be !important;
 
 /* Hero Section  */
 #inicio {
-background-color: #1e2749; /* Similar al navbar */ 
+background-color: #1e2749; 
 border-bottom: 2px solid #00adef;
 }
 
 .text-primary {
-color: #ff00ff !important; /* Nombre en rosa */
+color: #ff00ff !important; 
 }
 
 #inicio .btn-primary,
@@ -153,7 +153,7 @@ border-width: 2px;
 /* Secciones generales */
 
 section h2 {
-color: #00adef; /* Títulos de sección en cian */
+color: #00adef;
 }
 
 section p.text-muted {
@@ -187,7 +187,7 @@ color: #00adef;
 }
 
 .list-group-item .text-muted {
-color: #6c757d !important; /* Un gris un poco más oscuro */
+color: #6c757d !important;
 }
 
 /* Formulario de contacto */
@@ -224,7 +224,7 @@ color: #6c757d;
 
 css
 .card-img-top {
-height: 200px !important; /* Ajusta esta altura según lo necesites */
+height: 200px !important; 
 object-fit: cover;
 }
 
@@ -233,12 +233,12 @@ object-fit: cover;
 }
 
 .card:hover {
-  transform: translateY(-20px); /* Mueve la tarjeta 5px hacia arriba */
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; /* Sombra más fuerte */
+  transform: translateY(-20px); 
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; 
 }
 
 .border,
 .border-top,
 .border-bottom {
-  border-color: #ff00ff !important; /* Color magenta */
+  border-color: #ff00ff !important;
 }
