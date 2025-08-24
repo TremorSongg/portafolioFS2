@@ -1,7 +1,7 @@
 body {
 font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
-background-color: #0a1128; /* Azul oscuro casi negro /
-color: #f8f9fa; / Blanco hueso */
+background-color: #0a1128; /* Azul oscuro casi negro */
+color: #f8f9fa; /* Blanco hueso */
 }
 
 /* Skip link visible al enfocar con teclado */
@@ -21,8 +21,8 @@ top: 1rem;
 width: auto;
 height: auto;
 z-index: 1050;
-background: #ff00ff; /* Rosa neón /
-color: #0a1128; / Azul oscuro */
+background: #ff00ff; /* Rosa neón */
+color: #0a1128; /* Azul oscuro */
 padding: .5rem .75rem;
 border-radius: .5rem;
 text-decoration: none;
@@ -41,8 +41,8 @@ color: #ced4da !important; /* Gris claro para el texto */
 }
 
 .badge.bg-primary-subtle {
-background-color: rgba(255, 0, 255, 0.15) !important; /* Rosa sutil /
-color: #ff00ff !important; / Rosa */
+background-color: rgba(255, 0, 255, 0.15) !important; /* Rosa sutil */
+color: #ff00ff !important; /* Rosa */
 }
 
 .badge.bg-secondary-subtle {
@@ -73,7 +73,7 @@ color: #00adef; /* Cian al pasar el ratón */
 /* Navbar */
 .navbar {
 background-color: #1e2749 !important; /* Otro tono de azul oscuro */
-border-bottom: 1px solid #00adef; /* Borde inferior cian */
+border-bottom: 1px solid #ff00ff; /* Borde inferior cian */
 }
 
 .navbar-brand {
@@ -224,15 +224,21 @@ color: #6c757d;
 
 css
 .card-img-top {
-height: 200px; /* Ajusta esta altura según lo necesites */
+height: 200px !important; /* Ajusta esta altura según lo necesites */
 object-fit: cover;
 }
 
 .card {
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
 }
 
 .card:hover {
-  transform: translateY(-10px); /* Mueve la tarjeta 5px hacia arriba */
+  transform: translateY(-20px); /* Mueve la tarjeta 5px hacia arriba */
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; /* Sombra más fuerte */
+}
+
+.border,
+.border-top,
+.border-bottom {
+  border-color: #ff00ff !important; /* Color magenta */
 }
